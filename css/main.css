@@ -37,6 +37,10 @@ body {
   text-align: center;
   align-items: center;
 }
+.main {
+  padding: 16px;
+  margin: 16px;
+}
 ul {
   text-align: left;
   padding: auto;
