@@ -52,7 +52,8 @@ img {
   border-radius: 16px;
 }
 .footer {
-  padding: 32px 0;
+  height: calc(var(--index) * 7);
+  padding: 16px 0;
   position: relative;
   background-color: black;
   background-size: cover;
@@ -61,7 +62,7 @@ img {
 
 .footer-conteyner {
   display: flex;
-  flex-direction: column;
+
   gap: 20px;
 }
 
@@ -85,7 +86,7 @@ img {
   margin-bottom: 16px;
 }
 
-.ddress-link {
+.address-link {
   color: blueviolet;
   font-size: 16;
   font-weight: 300;
@@ -96,23 +97,7 @@ img {
   color: blanchedalmond;
 }
 
-.address-social {
-  fill: darkblue;
-}
-
-.address-social:hover {
-  fill: blanchedalmond;
-}
-
-.address-copy {
-  font-size: 14;
-}
-
-.footer-logo {
-}
 .footer-logo-img {
-  padding: 8px;
-  margin: 8px;
-  width: calc(var(--index) * 5);
-  height: calc(var(--index) * 5);
+  width: calc(var(--index) * 7);
+  height: calc(var(--index) * 7);
 }
