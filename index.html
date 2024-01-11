@@ -12,21 +12,13 @@
     <header class="header">
         <div class="conteyner">
             <div class="header-conteyner">
-                <nav class="header-nav">
-                    <a href="./index.html"></a>
-                    <img class="logo-img" src="./images/lodo.png" alt="Логотим Макса" />
-                    <!-- <ul class="header-menu">
-                        <li><a class="link" href="#histori-section">История</a></li>
-                        <li><a class="link" href="#efect-section">Воздействие массажа на организм</a></li>
-                        <li><a class="link" href="#2.1">Воздействие массажа на кожу</a></li>
-                        <li><a class="link" href="#2.2">Воздействие массажа на мышцы</a></li>
-                        <li><a class="link" href="#contact-section"></a></li>
-                        <li><a class="link" href="#contact-section"></a></li>
-                        <li><a class="link" href="#contact-section"></a></li>
+                <button class="header__button button modal-btn-open" type="button">
+                    Меню
+                </button>
 
+                <a href="./index.html"></a>
+                <img class="logo-img" src="./images/lodo.png" alt="Логотим Макса" />
 
-                    </ul>
-                </nav> -->
 
             </div>
         </div>
@@ -534,7 +526,7 @@
                         по времени и выполняемом с большим усилием — его снижение.
 
                 </div>
-                <div class="efect-section-conteyner-item">
+                <div class="efect-section-conteyner-item" id="2.3">
                     <h3>2.3 ВОЗДЕЙСТВИЕ МАССАЖА НА СУСТАВНО-СВЯЗОЧНЫЙ АППАРАТ</h3>
                     <p>Раздел анатомии, посвященный учению о соединениях костей, называется артрологией (от греч.
                         агитгоп — сустав). </p>
@@ -562,7 +554,7 @@
                         усилением крово- и
                         лимфообращения, активизацией образования синовиальной жидкости. </p>
                 </div>
-                <div class="efect-section-conteyner-item">
+                <div class="efect-section-conteyner-item" id="2.4">
                     <h3>2.4 ВОЗДЕЙСТВИЕ МАССАЖА НА СЕРДЕЧНО-СОСУДИСТУЮ И ЛИМФАТИЧЕСКУЮ СИСТЕМЫ</h3>
                     <p>К сердечно-сосудистой системе относятся сердце и кровеносные сосуды. Сердечно-сосудистая
                         система
@@ -652,7 +644,7 @@
                         рядом органах и тканях), а также рассасывание отеков различного происхождения.</p>
 
                 </div>
-                <div class="efect-section-conteyner-item">
+                <div class="efect-section-conteyner-item" id="2.5">
                     <h3>2.5 ВОЗДЕЙСТВИЕ МАССАЖА НА НЕРВНУЮ СИСТЕМУ</h3>
                     <p>Жизнедеятельность всех систем организма регулирует и координирует нервная система.
                         Существенная
@@ -762,7 +754,7 @@
                         него. </p>
 
                 </div>
-                <div class="efect-section-conteyner-item">
+                <div class="efect-section-conteyner-item" id="2.6">
                     <h3>2.6 ВОЗДЕЙСТВИЕ МАССАЖА НА ВНУТРЕННИЕ ОРГАНЫ И ОБМЕН ВЕЩЕСТВ</h3>
                     <p>Внутренние органы располагаются в полостях тела (грудной, брюшной и полости таза), а также в
                         области головы и шеи.
@@ -900,6 +892,33 @@
                 </div>
             </div>
         </footer>
+    </main>
+    <div class="backdrop is-hidden">
+        <div class="modal">
+            <button class="modal__btn-close modal-btn-close" type="button">
+                Close
+            </button>
+            <h3>Меню</h3>
+            <form name="modal-form" autocomplete="on">
+                <nav class="modal-nav">
+                    <ul class="header-menu">
+                        <li><a class="link" href="#histori-section">История</a></li>
+                        <li><a class="link" href="#efect-section">Воздействие массажа на организм</a></li>
+                        <li><a class="link" href="#2.1">Воздействие массажа на кожу</a></li>
+                        <li><a class="link" href="#2.2">Воздействие массажа на мышцы</a></li>
+                        <li><a class="link" href="#2.3">Воздействие массажа на суставно-связочный аппарат</a></li>
+                        <li><a class="link" href="#2.4">Воздействие массажа на сердечно-сосудистую и лимфатические
+                                системы</a></li>
+                        <li><a class="link" href="#2.5">Воздействие массажа на нервную систему</a></li>
+                        <li><a class="link" href="#2.6">Воздействие массажа на внутрение органы и обмен веществ</a></li>
+
+
+                    </ul>
+                </nav>
+            </form>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
 </body>
 
 </html>
