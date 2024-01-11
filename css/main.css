@@ -148,9 +148,6 @@ img {
   border-radius: 32px;
   overflow-y: auto;
 }
-@media screen and (min-width: $br-tablet) {
-  padding: 128px;
-}
 
 .btn-close {
   position: absolute;
@@ -162,13 +159,13 @@ img {
 
 .button {
   display: block;
-  width: calc(var(--index) * 2.5);
-  height: calc(var(--index) * 2.5);
+  width: calc(var(--index) * 3);
+  height: calc(var(--index) * 3);
   position: fixed;
   right: 0;
-  top: 200px;
+  top: 50px;
   z-index: 99999;
   background-color: rgba(0, 0, 0, 0.281);
   color: aqua;
-  /* margin: 0 auto 24px; */
+  margin: 0 auto 24px;
 }
