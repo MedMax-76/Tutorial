@@ -37,6 +37,9 @@ body {
   text-align: center;
   align-items: center;
 }
+main {
+  background-color: rgba(0, 0, 0, 0.436);
+}
 ul {
   text-align: left;
   padding: auto;
@@ -54,7 +57,7 @@ img {
   left: 0;
   width: 100%;
   padding-top: 16px;
-  background-color: rgba(0, 0, 0, 0.584);
+  background-color: rgba(0, 0, 0, 0.705);
 }
 .header-menu {
   height: calc(var(--index) * 7);
