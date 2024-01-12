@@ -1,6 +1,6 @@
 :root {
   --index: calc(1vw + 1vh);
-  color: #08ea79;
+  /* color: #08ea79; */
 }
 h1 {
   color: #08ea79;
