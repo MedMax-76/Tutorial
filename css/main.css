@@ -180,3 +180,8 @@ img {
   color: aqua;
   margin: 0 auto 24px;
 }
+.mod-btn-st {
+  background-color: #217a18;
+  color: aqua;
+  border-radius: 8px;
+}
