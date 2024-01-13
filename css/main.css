@@ -1,9 +1,24 @@
 :root {
   --index: calc(1vw + 1vh);
-  /* color: #08ea79; */
 }
 html {
   scroll-behavior: smooth;
+}
+.logo-img {
+  width: calc(var(--index) * 7);
+  height: calc(var(--index) * 7);
+}
+img {
+  width: calc(var(--index) * 25);
+  height: calc(var(--index) * 25);
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 16px;
+}
+.img-iymf,
+.img-nerv,
+.img-blood {
+  width: calc(var(--index) * 20);
 }
 h1 {
   color: #08ea79;
@@ -27,9 +42,19 @@ p {
   margin: 16px;
   font-size: calc(var(--index) * 1.5);
 }
+.link {
+  color: rgb(7, 167, 161);
+}
 span {
   font-weight: bold;
   font-size: calc(var(--index) * 1.7);
+}
+ul {
+  text-align: left;
+  padding: auto;
+  margin: 16px;
+  color: #217a18;
+  font-size: calc(var(--index) * 1.5);
 }
 body {
   background-image: url(../images/back.png);
@@ -40,28 +65,8 @@ body {
   text-align: center;
   align-items: center;
 }
-
-section{
-padding:8px;
-}
-
 main {
   background-color: rgba(0, 0, 0, 0.436);
-}
-ul {
-  text-align: left;
-  padding: auto;
-  margin: 16px;
-  font-size: calc(var(--index) * 1.5);
-}
-.second-menu {
-  list-style-type: lower-alpha;
-  padding: 8px;
-}
-img {
-  width: calc(var(--index) * 25);
-  height: calc(var(--index) * 25);
-  border-radius: 16px;
 }
 .header {
   position: relative;
@@ -71,18 +76,12 @@ img {
   padding-top: 16px;
   background-color: rgba(0, 0, 0, 0.705);
 }
-.header-menu {
-  height: calc(var(--index) * 7);
-  padding: 8px;
+section {
+  padding: 8px 8px 8px;
+}
+.second-menu {
   list-style-type: none;
-}
-.link {
-  color: rgb(7, 167, 161);
-}
-.img-iymf,
-.img-nerv,
-.img-blood {
-  width: calc(var(--index) * 20);
+  padding: 8px;
 }
 .footer {
   height: calc(var(--index) * 7);
@@ -95,7 +94,8 @@ img {
 
 .footer-conteyner {
   display: flex;
-  gap: 20px;
+  gap: 10px;
+  padding-left: 8px;
 }
 
 .footer-address {
@@ -130,10 +130,6 @@ img {
   color: blanchedalmond;
 }
 
-.logo-img {
-  width: calc(var(--index) * 7);
-  height: calc(var(--index) * 7);
-}
 .backdrop {
   position: fixed;
   top: 0;
@@ -175,13 +171,14 @@ img {
 
 .button {
   display: block;
-  width: calc(var(--index) * 3);
+  width: calc(var(--index) * 4.5);
   height: calc(var(--index) * 3);
   position: fixed;
   right: 0;
   top: 100px;
   z-index: 99999;
   background-color: rgba(0, 0, 0, 0.281);
+  border-radius: 20px;
   color: aqua;
   margin: 0 auto 24px;
 }
@@ -189,4 +186,9 @@ img {
   background-color: #217a18;
   color: aqua;
   border-radius: 8px;
+}
+.menu {
+  height: calc(var(--index) * 7);
+  padding: 8px;
+  list-style-type: none;
 }
