@@ -193,7 +193,8 @@ section {
   list-style-type: none;
 }
 /* ------------------------------ */
-#modnoye_okno {
+#modnoye_okno,
+#modnoye_okno1 {
   display: none;
   position: fixed;
   z-index: 9999999;
@@ -209,7 +210,8 @@ section {
   border-radius: 25px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 16px 20px rgba(0, 0, 0, 0.2);
 }
-#kaxalon_oyena {
+#kaxalon_oyena,
+#kaxalon_oyena1 {
   display: inline-block;
   margin: 10px 6px 4px 6px;
   text-decoration: none;

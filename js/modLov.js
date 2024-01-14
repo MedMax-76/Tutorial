@@ -19,10 +19,10 @@ setTimeout(function () {
 }, 20000);
 
 setTimeout(function () {
-  const modalwin = document.getElementById("modnoye_okno");
+  const modalwin = document.getElementById("modnoye_okno1");
   modalwin.style.display = "block";
   document
-    .getElementById("kaxalon_oyena")
+    .getElementById("kaxalon_oyena1")
     .addEventListener("click", function () {
       modalwin.style.display = "none";
     });
