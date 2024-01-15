@@ -1,6 +1,51 @@
+* {
+}
+@font-face {
+  font-display: swap;
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/eb-garamond-v27-cyrillic_latin-regular.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/eb-garamond-v27-cyrillic_latin-600.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "EB Garamond";
+  font-style: italic;
+  font-weight: 600;
+  src: url("../fonts/eb-garamond-v27-cyrillic_latin-600italic.woff2")
+    format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/eb-garamond-v27-cyrillic_latin-700.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "EB Garamond";
+  font-style: normal;
+  font-weight: 800;
+  src: url("../fonts/eb-garamond-v27-cyrillic_latin-800.woff2") format("woff2");
+}
 :root {
   --index: calc(1vw + 1vh);
+  font-family: "EB Garamond";
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -37,6 +82,7 @@ h3 {
 }
 p {
   color: #217a18;
+  /* color: #000000; */
   text-align: left;
   padding: auto;
   margin: 16px;
@@ -67,6 +113,7 @@ body {
 }
 main {
   background-color: rgba(0, 0, 0, 0.436);
+  /* background-color: rgba(255, 255, 255, 0.658); */
 }
 .header {
   position: relative;
