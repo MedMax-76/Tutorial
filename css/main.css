@@ -66,22 +66,22 @@ img {
   width: calc(var(--index) * 20);
 }
 h1 {
-  color: #08ea79;
+  color: #07c466;
   text-shadow: 0 0 10px #9eb47f;
   font-size: calc(var(--index) * 3);
 }
 h2 {
-  color: #08ea79;
+  color: #07c466;
   text-shadow: 0 0 10px #9eb47f;
   font-size: calc(var(--index) * 2.5);
 }
 h3 {
-  color: #08ea79;
+  color: #07c466;
   text-shadow: 0 0 10px #9eb47f;
   font-size: calc(var(--index) * 2);
 }
 p {
-  color: #217a18;
+  color: #1f8f12;
   /* color: #000000; */
   text-align: left;
   padding: auto;
