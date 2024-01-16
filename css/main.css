@@ -112,6 +112,7 @@ body {
 }
 main {
   background-color: rgba(0, 0, 0, 0.436);
+pading:8px;
   /* background-color: rgba(255, 255, 255, 0.658); */
 }
 .header {
