@@ -67,39 +67,39 @@ img {
 }
 h1 {
   color: #07c466;
-  text-shadow: 0 0 10px #9eb47f;
+  text-shadow: 0 0 5px #9eb47f;
   font-size: calc(var(--index) * 3);
 }
 h2 {
   color: #07c466;
-  text-shadow: 0 0 10px #9eb47f;
-  font-size: calc(var(--index) * 2.7);
+  text-shadow: 0 0 5px #9eb47f;
+  font-size: calc(var(--index) * 2.5);
 }
 h3 {
   color: #07c466;
-  text-shadow: 0 0 10px #9eb47f;
-  font-size: calc(var(--index) * 2.4);
+  text-shadow: 0 0 5px #9eb47f;
+  font-size: calc(var(--index) * 2);
 }
 p {
   color: #1f8f12;
   /* color: #000000; */
   text-align: left;
   padding: 8px;
-  font-size: calc(var(--index) * 2);
+  font-size: calc(var(--index) * 1.7);
 }
 .link {
   color: rgb(7, 167, 161);
 }
 span {
   font-weight: bold;
-  font-size: calc(var(--index) * 2);
+  font-size: calc(var(--index) * 1.7);
 }
 ul {
   text-align: left;
   padding: auto;
   margin: 16px;
   color: #217a18;
-  font-size: calc(var(--index) * 2);
+  font-size: calc(var(--index) * 1.7);
 }
 body {
   background-image: url(../images/back.png);
@@ -112,7 +112,7 @@ body {
 }
 main {
   background-color: rgba(0, 0, 0, 0.436);
-pading:8px;
+
   /* background-color: rgba(255, 255, 255, 0.658); */
 }
 .header {
