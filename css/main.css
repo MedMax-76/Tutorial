@@ -1,49 +1,7 @@
 * {
 }
-@font-face {
-  font-display: swap;
-  font-family: "EB Garamond";
-  font-style: normal;
-  font-weight: 400;
-  src: url("../fonts/eb-garamond-v27-cyrillic_latin-regular.woff2")
-    format("woff2");
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "EB Garamond";
-  font-style: normal;
-  font-weight: 600;
-  src: url("../fonts/eb-garamond-v27-cyrillic_latin-600.woff2") format("woff2");
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "EB Garamond";
-  font-style: italic;
-  font-weight: 600;
-  src: url("../fonts/eb-garamond-v27-cyrillic_latin-600italic.woff2")
-    format("woff2");
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "EB Garamond";
-  font-style: normal;
-  font-weight: 700;
-  src: url("../fonts/eb-garamond-v27-cyrillic_latin-700.woff2") format("woff2");
-}
-
-@font-face {
-  font-display: swap;
-  font-family: "EB Garamond";
-  font-style: normal;
-  font-weight: 800;
-  src: url("../fonts/eb-garamond-v27-cyrillic_latin-800.woff2") format("woff2");
-}
 :root {
   --index: calc(1vw + 1vh);
-  font-family: "EB Garamond";
 }
 
 html {
@@ -69,16 +27,19 @@ h1 {
   color: #07c466;
   text-shadow: 0 0 5px #9eb47f;
   font-size: calc(var(--index) * 3);
+  margin-top: 0;
 }
 h2 {
-  color: #07c466;
-  text-shadow: 0 0 5px #9eb47f;
+  color: #1f9e5f;
+  text-shadow: 0 0 5px rgb(30, 122, 208);
   font-size: calc(var(--index) * 2.5);
+  margin-top: 0;
 }
 h3 {
-  color: #07c466;
-  text-shadow: 0 0 5px #9eb47f;
+  color: #1f9e5f;
+  text-shadow: 0 0 5px rgb(30, 122, 208);
   font-size: calc(var(--index) * 2);
+  margin-top: 0;
 }
 p {
   color: #1f8f12;
@@ -86,9 +47,16 @@ p {
   text-align: left;
   padding: 8px;
   font-size: calc(var(--index) * 1.7);
+  margin-top: 0;
+}
+.ket {
+  text-align: center;
+  font-size: calc(var(--index) * 2.5);
+  color: #f10606;
+  font-weight: 600;
 }
 .link {
-  color: rgb(7, 167, 161);
+  color: rgb(60, 190, 186);
 }
 span {
   font-weight: bold;
@@ -174,7 +142,7 @@ section {
 }
 
 .address-link:hover {
-  color: blanchedalmond;
+  color: rgb(15, 105, 95);
 }
 
 .backdrop {
@@ -236,8 +204,16 @@ section {
 }
 .menu {
   height: calc(var(--index) * 7);
-  padding: 8px;
+  padding-left: 8px;
+  padding-bottom: 0;
+  font-size: calc(var(--index) * 1.5);
   list-style-type: none;
+}
+.second-menu {
+  font-size: calc(var(--index) * 1.5);
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-right: 0;
 }
 /* ------------------------------ */
 #modnoye_okno,
@@ -245,7 +221,7 @@ section {
   display: none;
   position: fixed;
   z-index: 9999999;
-  background: #ffffff00;
+  background: #1f05058c;
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
@@ -291,4 +267,7 @@ section {
 #kaxalon_oyena:hover:before {
   width: 100%;
   left: 0;
+}
+.mod_ket {
+  margin: 0;
 }
