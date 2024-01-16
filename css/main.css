@@ -1,4 +1,6 @@
 * {
+  margin: 8;
+  padding: 8;
 }
 :root {
   --index: calc(1vw + 1vh);
