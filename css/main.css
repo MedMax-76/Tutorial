@@ -84,8 +84,7 @@ p {
   color: #1f8f12;
   /* color: #000000; */
   text-align: left;
-  padding: auto;
-  margin: 16px;
+  padding: 8px;
   font-size: calc(var(--index) * 2);
 }
 .link {
@@ -93,14 +92,14 @@ p {
 }
 span {
   font-weight: bold;
-  font-size: calc(var(--index) * 1.7);
+  font-size: calc(var(--index) * 2);
 }
 ul {
   text-align: left;
   padding: auto;
   margin: 16px;
   color: #217a18;
-  font-size: calc(var(--index) * 1.5);
+  font-size: calc(var(--index) * 2);
 }
 body {
   background-image: url(../images/back.png);
