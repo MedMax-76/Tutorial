@@ -73,12 +73,12 @@ h1 {
 h2 {
   color: #07c466;
   text-shadow: 0 0 10px #9eb47f;
-  font-size: calc(var(--index) * 2.5);
+  font-size: calc(var(--index) * 2.7);
 }
 h3 {
   color: #07c466;
   text-shadow: 0 0 10px #9eb47f;
-  font-size: calc(var(--index) * 2);
+  font-size: calc(var(--index) * 2.4);
 }
 p {
   color: #1f8f12;
@@ -86,7 +86,7 @@ p {
   text-align: left;
   padding: auto;
   margin: 16px;
-  font-size: calc(var(--index) * 1.5);
+  font-size: calc(var(--index) * 2);
 }
 .link {
   color: rgb(7, 167, 161);
