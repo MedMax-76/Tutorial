@@ -122,7 +122,7 @@ p {
   color: black;
   /* color: #000000; */
   text-align: left;
-  padding: 16px;
+  padding-left: 8px;
   font-size: calc(var(--index) * 1.7);
   margin-top: 0;
 }
@@ -155,9 +155,11 @@ body {
   flex-direction: column;
   text-align: center;
   align-items: center;
+  padding-left: 8px;
 }
 main {
   background-color: rgba(230, 215, 167, 0.436);
+  padding-left: 8px;
 
   /* background-color: rgba(255, 255, 255, 0.658); */
 }
