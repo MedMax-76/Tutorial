@@ -9,7 +9,13 @@
 
 </head>
 
-<body>
+<body class="body">
+    <div class="dark-mode">
+        <button class="dark-mode-btn">
+            <img src="./images/sun.svg" alt="Light mode" class="dark-mode-btn__icon">
+            <img src="./images/moon.svg" alt="Dark mode" class="dark-mode-btn__icon">
+        </button>
+    </div>
     <header class="header" id="header">
         <div class="header-conteyner">
             <button class="header__button button modal-btn-open" type="button">
@@ -20,7 +26,7 @@
             <p class="ket">My massage tutorial for my Katya</p>
         </div>
     </header>
-    <main>
+    <main class="main">
         <section class="histori-section" id="histori-section">
             <h2 class="histori-section-conteyner-title">
                 1. ИСТОРИЯ РАЗВИТИЯ МАССАЖА
@@ -242,7 +248,7 @@
                         <li>2. собственно кожи (дерма)</li>
                         <li>3. подкожно-жировой клетчатки (гиподерма)</li>
                     </ul>
-                    <img src="./images/derma.jpg" alt="Строение кожи">
+                    <img class="img-drm" src="./images/derma.jpg" alt="Строение кожи">
                     <p>Придатками кожи являются волосы, сальные и потовые железы, ногтевые пластинки.
                         Несмотря
                         на
@@ -921,16 +927,17 @@
     </div>
     <div id="modnoye_okno">
         <p class="ket mod_ket">Катюша)))</p>
-        <img src="./images/love.png" alt="i love yuo">
+        <img class="mod_okno_img" src="./images/love.png" alt="i love yuo">
         <a id="kaxalon_oyena" href="#close">Ответить)))</a>
     </div>
     <div id="modnoye_okno1">
         <p class="ket mod_ket">Катенька)))</p>
-        <img src="./images/love1.png" alt="i love yuo">
+        <img class="mod_okno_img" src="./images/love1.png" alt="i love yuo">
         <a id="kaxalon_oyena1" href="#close">Ответить)))</a>
     </div>
     <script src="./js/modLov.js"></script>
     <script src="./js/modal.js"></script>
+    <script src="./js/darc.js"></script>
 </body>
 
 </html>
