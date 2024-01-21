@@ -125,6 +125,7 @@ p {
   font-size: calc(var(--index) * 2.5);
   color: #f10606;
   font-weight: 600;
+  padding-bottom: 8px;
 }
 .link {
   color: rgb(60, 190, 186);
