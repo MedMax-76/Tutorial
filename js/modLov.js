@@ -17,3 +17,13 @@ setTimeout(function () {
       modalwin.style.display = "none";
     });
 }, 50000);
+
+setTimeout(function () {
+  const modalwin = document.getElementById("modnoye_okno2");
+  modalwin.style.display = "block";
+  document
+    .getElementById("kaxalon_oyena2")
+    .addEventListener("click", function () {
+      modalwin.style.display = "none";
+    });
+}, 30000);

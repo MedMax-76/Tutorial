@@ -71,7 +71,6 @@
   src: url("../fonts/cormorant-garamond-v16-cyrillic_latin-700.woff2")
     format("woff2");
 }
-
 :root {
   --index: calc(1vw + 1vh);
   --light-text-col: black;
@@ -350,7 +349,23 @@ section {
   display: none;
   position: fixed;
   z-index: 9999999;
-  background: #1f05058c;
+  background: #1f0505b7;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  max-width: 700px;
+  width: 100%;
+  text-align: center;
+  padding: 10px 20px;
+  border: 4px solid #0d5d29;
+  border-radius: 25px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2), 0 16px 20px rgba(0, 0, 0, 0.2);
+}
+#modnoye_okno2 {
+  display: none;
+  position: fixed;
+  z-index: 9999999;
+  background: #1f0505de;
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
@@ -367,7 +382,8 @@ section {
   height: calc(var(--index) * 25);
 }
 #kaxalon_oyena,
-#kaxalon_oyena1 {
+#kaxalon_oyena1,
+#kaxalon_oyena2 {
   display: inline-block;
   margin: 10px 6px 4px 6px;
   text-decoration: none;
