@@ -107,11 +107,13 @@ html {
 
 h2 {
   font-size: calc(var(--index) * 2.5);
+  font-weight: bold;
   margin-top: 0;
 }
 h3 {
   font-size: calc(var(--index) * 2);
-  margin-top: 8px;
+  font-weight: bold;
+  margin-top: 16px;
 }
 p {
   text-align: left;
@@ -133,11 +135,30 @@ span {
   font-weight: bold;
   font-size: calc(var(--index) * 1.7);
 }
+.note {
+  color: #f10606;
+  font-style: italic;
+}
 ul {
   text-align: left;
   padding: auto;
   margin: 16px;
   font-size: calc(var(--index) * 1.7);
+}
+.hand-exercises {
+  padding: 16px;
+  margin: 16px;
+  list-style-type: decimal;
+}
+.hand-exercises-dumbbells {
+  padding: 16px;
+  margin: 16px;
+  list-style-type: lower-alpha;
+}
+.contraindications-list {
+  padding: 16px;
+  margin: 16px;
+  list-style-type: disc;
 }
 body {
   /* background-image: url(../images/back.png); */
@@ -229,6 +250,7 @@ section {
   position: relative;
   left: 0;
   width: 100%;
+  margin-top: 16px;
   padding-top: 16px;
   background-color: black;
   background-size: cover;
