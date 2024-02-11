@@ -1,5 +1,44 @@
 @import "./reset.css";
-@import url("https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"); */
+
+@font-face {
+  font-family: "Verdana";
+  src: url("Verdana-BoldItalic.eot");
+  src: local("Verdana Bold Italic"), local("Verdana-BoldItalic"),
+    url("Verdana-BoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Verdana-BoldItalic.woff2") format("woff2");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Verdana";
+  src: url("Verdana-Italic.eot");
+  src: local("Verdana Italic"), local("Verdana-Italic"),
+    url("Verdana-Italic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Verdana-Italic.woff2") format("woff2");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Verdana";
+  src: url("Verdana.eot");
+  src: local("Verdana"), url("Verdana.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Verdana.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Verdana";
+  src: url("Verdana-Bold.eot");
+  src: local("Verdana Bold"), local("Verdana-Bold"),
+    url("Verdana-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Verdana-Bold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
 
 :root {
   --index: calc(1vw + 1vh);
@@ -10,7 +49,8 @@
 }
 
 html {
-  font-family: "Vollkorn", serif;
+  /* font-family: "Vollkorn", serif; */
+  font-family: "Verdana";
   scroll-behavior: smooth;
 }
 
@@ -58,6 +98,7 @@ p {
   color: #f10606;
   font-weight: 600;
   padding-bottom: 8px;
+  font-style: italic;
 }
 .link {
   color: rgb(60, 190, 186);
@@ -216,6 +257,7 @@ section {
   font-size: 16;
   font-weight: 300;
   text-decoration: none;
+  font-style: italic;
 }
 
 .address-link:hover {
