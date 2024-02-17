@@ -55,8 +55,12 @@ html {
 }
 
 .logo-img {
-  width: calc(var(--index) * 7);
-  height: calc(var(--index) * 7);
+  width: calc(var(--index) * 15);
+  height: calc(var(--index) * 15);
+}
+.logo-img-footer {
+  width: calc(var(--index) * 8);
+  height: calc(var(--index) * 8);
 }
 
 .img-iymf,
@@ -229,6 +233,13 @@ section {
   display: flex;
   gap: 10px;
   padding-left: 8px;
+}
+@media (max-width: 620px) {
+  .footer-conteyner {
+    padding-left: 8px;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .footer-address {
