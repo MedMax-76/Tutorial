@@ -55,11 +55,11 @@ html {
 }
 
 .logo-img {
-  width: calc(var(--index) * 15);
-  height: calc(var(--index) * 15);
+  width: calc(var(--index) * 25);
+  height: calc(var(--index) * 7);
 }
 .logo-img-footer {
-  width: calc(var(--index) * 8);
+  width: calc(var(--index) * 25);
   height: calc(var(--index) * 8);
 }
 
