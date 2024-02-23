@@ -357,7 +357,10 @@ section {
   display: none;
   position: fixed;
   z-index: 9999999;
-  background: #1f0505b7;
+  background-image: url(../images/heartbokeh\ 021.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background: #1f0505b7; */
   top: 50%;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
