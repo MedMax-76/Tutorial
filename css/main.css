@@ -147,7 +147,7 @@ body {
   background-color: var(--light-bgr-col);
   color: var(--light-text-col);
   min-height: 100vh;
-
+  line-height: 1.5;
   flex-direction: column;
   text-align: center;
   align-items: center;
