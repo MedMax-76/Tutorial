@@ -26,4 +26,4 @@ setTimeout(function () {
     .addEventListener("click", function () {
       modalwin.style.display = "none";
     });
-}, 30000);
+}, 70000);
