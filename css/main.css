@@ -46,6 +46,7 @@
   --light-bgr-col: rgba(230, 215, 167, 0.436);
   --dark-text-col: #1f8f12;
   --dark-bgr-col-main: rgba(255, 255, 255, 0.658);
+  /* user-select: none; */
 }
 
 html {
@@ -151,6 +152,13 @@ body {
   flex-direction: column;
   text-align: center;
   align-items: center;
+}
+.noselct {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
 }
 .dark {
   background-image: url(../images/back.png);
